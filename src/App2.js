@@ -33,7 +33,8 @@ class App extends React.Component {
   }
 
   // class 컴포넌트는 React.Component로부터 확장되었으며,
-  // ∴ react.Component의 render 메소드를 쓸 수 있고, React.Component 내부의 react는 자동적으로 class 컴포넌트의 render 메소드를 실행함
+  // ∴ react.Component의 render 메소드를 상속받으므로 render 메소드를 쓸 수 있고, 
+  // React.Component 내부의 react는 자동적으로 class 컴포넌트의 render 메소드를 실행함
   render() {
     console.log('I\'m rendering');
     return (
